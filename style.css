@@ -57,7 +57,7 @@ body {
   align-items: center;
   width: 100%;
   height: 700px;
-  background-image: url("./img/slider01-2.jpg");
+  background-image: url("public/img/slider01-2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
