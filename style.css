@@ -1,0 +1,318 @@
+html {
+  font-family: "Ubuntu", Tahoma, Geneva, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 120px;
+  background-color: #222d35;
+  position: fixed;
+}
+.container {
+  display: flex;
+  padding: 40px 400px;
+  justify-content: space-between;
+}
+/* colocar background na barra  */
+/* .marcadagua{
+    width: 100%:
+    height: 50%;
+} */
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  list-style: none;
+}
+
+.list a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.booknow {
+  border-width: medium;
+  border-style: solid;
+  padding: 18px 30px;
+  border-color: #1face1;
+}
+
+.background_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  background-image: url("./img/slider01-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container_titles {
+  margin: 250px;
+  width: 900px;
+  height: 400px;
+}
+.title_container_1 {
+  color: #fff;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 26px;
+  letter-spacing: 8px;
+}
+
+.title_container_2 {
+  line-height: 94px;
+  font-weight: 700;
+  font-size: 94px;
+  color: rgb(31, 172, 225);
+}
+.title_container_3 {
+  line-height: 94px;
+  font-weight: 700;
+  font-size: 94px;
+  color: #fff;
+}
+
+.facebook_icon {
+  padding: 10px;
+  margin: 50px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #485158;
+  border-radius: 100%;
+}
+
+.container_contact {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contact_item {
+  padding: 15px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  color: #fff;
+}
+
+.contact_text {
+  text-decoration: none;
+  margin-left: 10px;
+  color: #fff;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.container_more {
+  display: flex;
+  align-items: center;
+  height: 180px;
+  width: 1300px;
+  margin-left: auto;
+  margin-top: -100px;
+  background-color: #1face1;
+}
+.address_gym_1 {
+  margin: 0 200px 0 200px;
+  width: 180px;
+  height: 50px;
+}
+.address_gym_1 a {
+  font-family: "Rajdhani";
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+.address_gym_2 {
+  width: 300px;
+  height: 50px;
+}
+.address_gym_2 a {
+  font-family: "Rajdhani";
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+.header_2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  background-color: #222d35;
+}
+
+.personal_container {
+  width: 400px;
+  height: 400px;
+}
+
+.personal_container_background {
+  font-size: 60px;
+  font-weight: 600;
+  color: #364754;
+}
+
+.personal_container_title {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
+
+.personal_container_subtitle {
+  color: #1face1;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.personal_container_icon {
+  height: 50px;
+  width: 50px;
+}
+.personal_header {
+  display: flex;
+  align-items: center;
+}
+
+.personal_container_header {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: -85px;
+}
+
+.text_container {
+  /* padding: 50px 0 50px; */
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Ubuntu", Tahoma, Geneva, sans-serif;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.foolter_container {
+  width: 100%;
+  height: 80px;
+}
+
+.read_more_container_link {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  line-height: 1.4rem;
+  color: white;
+  text-decoration: none;
+}
+
+.more_fitness {
+  width: 400px;
+  height: 400px;
+  color: azure;
+}
+
+.color_background {
+  background-color: #222d35;
+}
+.why_choose {
+  width: 100%;
+  height: 800px;
+  background-color: white;
+}
+
+.why_choose_container {
+  margin: 100px 0 300px 400px;
+  width: 500px;
+  height: 700px;
+}
+
+.why_choose_container_title_h2 {
+  font-family: "Heebo", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 3px;
+  color: #1face1;
+}
+
+.why_choose_container_title_h4 {
+  font-family: "Rajdhani", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 45px;
+  line-height: 45px;
+  letter-spacing: 1px;
+  color: #222d35;
+}
+
+.why_choose_container_text {
+  font-family: "Ubuntu", Tahoma, Geneva, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #646c71;
+}
+.why_choose_container_list {
+  height: 300px;
+}
+
+.container_list_items {
+  width: 100%;
+  height: 10px;
+  list-style-type: none;
+  display: block;
+  float: right;
+  margin-right: 10px;
+}
+
+.container_text {
+  font-family: "Ubuntu", Tahoma, Geneva, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #646c71;
+}
+
+.container_touch{
+  display: flex;
+  justify-content: center;
+  background-color: #222d35;
+  width: 70%;
+  height: 50px;
+}
+.container_touch_text{
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    color: white;
+}
+.why_choose_container_image{
+  
+}
