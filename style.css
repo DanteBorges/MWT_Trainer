@@ -15,6 +15,8 @@ body {
   height: 120px;
   background-color: #222d35;
   position: fixed;
+  top:0;
+ z-index:100;
 }
 .container {
   display: flex;
@@ -239,8 +241,9 @@ body {
 }
 .why_choose {
   display: flex;
+  flex-direction: row;
   width: 100%;
-  height: 800px;
+  height: 1000px;
   background-color: white;
 }
 
@@ -301,21 +304,49 @@ body {
 .container_touch {
   display: flex;
   justify-content: center;
+  text-decoration: none;
   background-color: #222d35;
   width: 70%;
   height: 50px;
 }
+.container_touch:hover {
+  background-color: #1face1;
+  transition: 0.5s;
+}
 .container_touch_text {
   display: flex;
   align-items: center;
+  text-decoration: none;
   text-transform: uppercase;
   font-size: 15px;
   line-height: 15px;
   letter-spacing: 1px;
   color: white;
 }
+
 .why_choose_container_image {
   margin: 100px 0 300px 0;
   width: 500px;
   height: 600px;
 }
+
+.personal_training {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  background-color: #222d35;
+  width: 100%;
+  height: 800px;
+}
+.personal_training_img_girl {
+  top: -100px;
+  width: 500px;
+  height: 700px;
+}
+
+.personal_training_container{
+  width: 100%;
+  height: 700px;
+  background-color: red;
+}
+
