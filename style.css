@@ -15,8 +15,8 @@ body {
   height: 120px;
   background-color: #222d35;
   position: fixed;
-  top:0;
- z-index:100;
+  top: 0;
+  z-index: 100;
 }
 .container {
   display: flex;
@@ -336,17 +336,77 @@ body {
   flex-direction: row;
   background-color: #222d35;
   width: 100%;
-  height: 800px;
+  height: 700px;
 }
 .personal_training_img_girl {
+  position: relative;
   top: -100px;
-  width: 500px;
-  height: 700px;
+  width: 600px;
+  height: 800px;
+  background-image: url(public/img/Image12.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.personal_training_container{
+.personal_training_container {
+  margin: 50px;
   width: 100%;
-  height: 700px;
-  background-color: red;
+  height: 600px;
 }
+
+.personal_training_container_title_h4 {
+  font-family: "Heebo", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 3px;
+  color: #1face1;
+}
+.personal_training_container_title_h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.personal_training_card {
+  border: 1px rgba(255, 255, 255, 0.2) solid;
+  width: 300px;
+  height: 500px;
+}
+.personal_training_card_thumb{
+  width: 300px;
+  height: 200px;
+}
+.personal_training_box_icon{
+position: relative;
+top: -25px;
+right: -120px;
+width: 50px;
+height:50px;
+background-color:#1face1;
+}
+.personal_training_box_icon_i{
+  position: relative;
+  left: 10px;
+  top: 5px;
+}
+
+.personal_training_box_titles{
+  width: 300px;
+  height: 250px;
+}
+.personal_training_box_title_h2{
+  margin: 0 30px ;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: white;
+}
+
 
