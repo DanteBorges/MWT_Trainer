@@ -372,35 +372,41 @@ body {
   color: #fff;
 }
 
+.personal_training_card_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
 .personal_training_card {
   border: 1px rgba(255, 255, 255, 0.2) solid;
   width: 300px;
   height: 500px;
 }
-.personal_training_card_thumb{
+.personal_training_card_thumb {
   width: 300px;
   height: 200px;
 }
-.personal_training_box_icon{
-position: relative;
-top: -25px;
-right: -120px;
-width: 50px;
-height:50px;
-background-color:#1face1;
+.personal_training_box_icon {
+  position: relative;
+  top: -25px;
+  right: -120px;
+  width: 50px;
+  height: 50px;
+  background-color: #1face1;
 }
-.personal_training_box_icon_i{
+.personal_training_box_icon_i {
   position: relative;
   left: 10px;
   top: 5px;
 }
 
-.personal_training_box_titles{
+.personal_training_box_titles {
+  text-align: center;
   width: 300px;
   height: 250px;
 }
-.personal_training_box_title_h2{
-  margin: 0 30px ;
+.personal_training_box_title_h2 {
   font-weight: 600;
   text-decoration: none;
   text-transform: uppercase;
@@ -408,5 +414,32 @@ background-color:#1face1;
   letter-spacing: 1px;
   color: white;
 }
+.personal_training_box_title_h3 {
+  font-family: "Ubuntu", Tahoma, Geneva, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #b7b8b9;
+}
+.read_more_container_link_cards {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  line-height: 1.4rem;
+  color: #1face1;
+  text-decoration: none;
+}
+.read_more_container_link_cards:hover {
+  color: white;
+  transition: 0.5s;
+}
 
+.foolter_container_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  margin: 10px 40px;
+  height: 80px;
+}
 
