@@ -1,0 +1,20 @@
+{
+  "name": "MWT_Trainer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanteBorges/MWT_Trainer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanteBorges/MWT_Trainer/issues"
+  },
+  "homepage": "https://github.com/DanteBorges/MWT_Trainer#readme"
+}
