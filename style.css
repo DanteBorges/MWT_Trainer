@@ -412,6 +412,12 @@ body {
   letter-spacing: 1px;
   color: white;
 }
+.personal_training_box_title_h2:hover{
+  color: #1face1;
+  transition: 0.5s;
+}
+
+
 .personal_training_box_title_h3 {
   font-family: "Ubuntu", Tahoma, Geneva, sans-serif;
   font-weight: 300;
