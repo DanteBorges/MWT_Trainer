@@ -331,7 +331,6 @@ body {
 }
 
 .personal_training {
-  position: absolute;
   display: flex;
   flex-direction: row;
   background-color: #222d35;
@@ -372,11 +371,10 @@ body {
   color: #fff;
 }
 
-.personal_training_card_container{
+.personal_training_card_container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
 }
 .personal_training_card {
   border: 1px rgba(255, 255, 255, 0.2) solid;
@@ -438,8 +436,24 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   margin: 10px 40px;
   height: 80px;
 }
 
+.more_about {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 1000px;
+  background-color: white;
+}
+
+.testimonials_containe {
+  background-color: #222d35;
+  position: absolute;
+  right: 0;
+  margin-top: 50px;
+  width: 70%;
+  height: 400px;
+}
