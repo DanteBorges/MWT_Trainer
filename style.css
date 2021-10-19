@@ -364,6 +364,7 @@ padding: 0;
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 3px;
+  padding-bottom: 20px;
   color: #1face1;
 }
 .personal_training_container_title_h2 {
@@ -372,12 +373,14 @@ padding: 0;
   font-size: 35px;
   line-height: 20px;
   letter-spacing: 1px;
+  padding-bottom: 20px;
   color: #fff;
 }
 
 .personal_training_card_container {
   display: flex;
   justify-content: space-between;
+  padding-top: 20px;
 }
 .personal_training_card {
   border: 1px rgba(255, 255, 255, 0.2) solid;
