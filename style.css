@@ -633,6 +633,9 @@ h6 {
 .FAQ_container_questions {
   background-color: #1face1;
 }
+.FAQ_container_questions:hover {
+  background-color: #646c71;
+}
 
 .FAQ_questions_description_header_items {
   display: flex;
