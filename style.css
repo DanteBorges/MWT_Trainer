@@ -10,9 +10,14 @@ body {
   padding: 0;
   height: 100%;
 }
-h1, h2, h3, h4, h5, h6 {
-margin: 0;
-padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -266,19 +271,19 @@ padding: 0;
   letter-spacing: 3px;
   color: #1face1;
 }
-.custom_underline{
+.custom_underline {
   display: flex;
 }
-.light_blue_border{
-  background-color:  #1face1;
+.light_blue_border {
+  background-color: #1face1;
   width: 40px;
   height: 2px;
   margin-right: 3px;
 }
-.dark_blue_border{
+.dark_blue_border {
   width: 15px;
   height: 2px;
-  background-color:  #206b8a;
+  background-color: #206b8a;
 }
 
 .why_choose_container_title_h4 {
@@ -479,7 +484,6 @@ padding: 0;
   align-items: center;
 }
 
-
 .testimonials_container {
   display: flex;
   background-color: #222d35;
@@ -505,8 +509,6 @@ padding: 0;
   display: flex;
   flex-direction: column;
 }
-
-
 
 .testimonials_carousel_container_items {
   width: 900px;
@@ -534,7 +536,7 @@ padding: 0;
   align-items: center;
 }
 
-.testimonials_carousel_header_user{
+.testimonials_carousel_header_user {
   display: flex;
   align-items: center;
 }
@@ -553,10 +555,10 @@ padding: 0;
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 2px;
-  color:#1face1;
+  color: #1face1;
   margin-top: 5px;
 }
-.testimonials_text_item{
+.testimonials_text_item {
   padding-right: 80px;
   font-size: 20px;
   line-height: 160%;
@@ -564,18 +566,17 @@ padding: 0;
   text-transform: uppercase;
   color: #b7b8b9;
 }
-.giant_quotes{
+.giant_quotes {
   color: #1face1;
   font-size: 64px;
 }
-.five_stars_container{
-  height:80px;
-   width:80px;
-
+.five_stars_container {
+  height: 80px;
+  width: 80px;
 }
-.links{
+.links {
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
 .links a {
   background-color: white;
@@ -585,16 +586,11 @@ padding: 0;
   margin-right: 10px;
 }
 
-
-
-.FAQ_container{
+.FAQ_container {
   margin: 40px 20px;
-  
 }
 
-
-.FAQ_text_h3{
-  
+.FAQ_text_h3 {
   font-family: "Heebo", Arial, Helvetica, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
@@ -604,15 +600,14 @@ padding: 0;
   color: #1face1;
 }
 
-.FAQ_container_titles{
+.FAQ_container_titles {
   display: flex;
   flex-direction: column;
-  align-items:center;
-  justify-content: center
+  align-items: center;
+  justify-content: center;
 }
 
-.FAQ_text_h4{
-
+.FAQ_text_h4 {
   font-family: "Rajdhani", Arial, Helvetica, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -622,12 +617,48 @@ padding: 0;
   color: #222d35;
 }
 
-.FAQ_text{
-font-family: "Ubuntu", Arial, Helvetica, sans-serif;
-font-weight: 300;
-font-size: 16px;
-line-height: 24px;
-color: #646c71;
-text-align: center;
+.FAQ_text {
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #646c71;
+  text-align: center;
+}
+.FAQ_questions{
+  margin: 40px 480px;
 }
 
+
+.FAQ_container_questions {
+  background-color: #1face1;
+}
+
+.FAQ_questions_description_header_items {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.plus_icon {
+  padding-right: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.FAQ_question_format{
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+.FAQ_question_text{
+  margin: 0px 20px;
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #646c71;
+}
