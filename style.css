@@ -625,43 +625,57 @@ h6 {
   color: #646c71;
   text-align: center;
 }
+
 .FAQ_questions{
   margin: 40px 480px;
 }
 
 
-.FAQ_container_questions {
-  background-color: #1face1;
+.wrapper {
+	max-width: 400px;
+	margin: 0 auto;
 }
-.FAQ_container_questions:hover {
-  background-color: #646c71;
-}
-
-.FAQ_questions_description_header_items {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-}
-.plus_icon {
-  padding-right: 20px;
-  width: 20px;
-  height: 20px;
+.lista-item {
+	background: white;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	padding: 10px;
+	box-shadow: 0 2px 6px rgba(50,50,90,.1);
 }
 
-.FAQ_question_format{
-  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-  font-size: 16px;
-  line-height: 24px;
-  color: white;
+.faq-titulo {
+	cursor: pointer;
+	padding: 10px;
+	font-size: 1.4em;
+	font-family: monospace;
+	color: gray;
 }
 
-.FAQ_question_text{
-  margin: 0px 20px;
-  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: #646c71;
+.faq-titulo::before {
+	content: '+';
+	display: inline-block;
+	height: 12px;
+	width: 24px;
+	margin-right: 10px;
+	
+    
 }
+
+
+.faq-conteudo {
+	padding: 10px;
+	color: #6B7C93;
+	font-family: Helvetica;
+	font-size: .875em;
+	line-height: 1.4em;
+	display: none;
+}
+
+.trigger-input {
+	display: none;
+}
+
+.trigger-input:checked + .trigger-wrapper .faq-conteudo {
+	display: block;
+}
+
