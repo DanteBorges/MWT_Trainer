@@ -266,6 +266,20 @@ padding: 0;
   letter-spacing: 3px;
   color: #1face1;
 }
+.custom_underline{
+  display: flex;
+}
+.light_blue_border{
+  background-color:  #1face1;
+  width: 40px;
+  height: 2px;
+  margin-right: 3px;
+}
+.dark_blue_border{
+  width: 15px;
+  height: 2px;
+  background-color:  #206b8a;
+}
 
 .why_choose_container_title_h4 {
   font-family: "Rajdhani", Arial, Helvetica, sans-serif;
@@ -492,13 +506,7 @@ padding: 0;
   flex-direction: column;
 }
 
-.links a {
-  color: white;
-  border-radius: 50%;
-  display: inline-flex;
-  padding: 5px 10px;
-  text-decoration: none;
-}
+
 
 .testimonials_carousel_container_items {
   width: 900px;
@@ -507,7 +515,6 @@ padding: 0;
   display: flex;
   margin-top: 60px;
   scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
 }
 
 .testimonials_carousel_container_items .item {
@@ -532,7 +539,7 @@ padding: 0;
   align-items: center;
 }
 
-.testimonials_name_item1 {
+.testimonials_name_item {
   font-size: 15px;
   letter-spacing: 1px;
   line-height: 10px;
@@ -541,7 +548,7 @@ padding: 0;
   color: #fff;
 }
 
-.testimonials_profession_item1 {
+.testimonials_profession_item {
   font-weight: 500;
   text-transform: uppercase;
   font-size: 13px;
@@ -549,7 +556,7 @@ padding: 0;
   color:#1face1;
   margin-top: 5px;
 }
-.testimonials_text_item1{
+.testimonials_text_item{
   padding-right: 80px;
   font-size: 20px;
   line-height: 160%;
@@ -561,22 +568,66 @@ padding: 0;
   color: #1face1;
   font-size: 64px;
 }
+.five_stars_container{
+  height:80px;
+   width:80px;
 
-.custom_underline{
+}
+.links{
   display: flex;
+  justify-content: center
 }
-.light_blue_border{
-  background-color:  #1face1;
-  width: 40px;
-  height: 2px;
-  margin-right: 3px;
+.links a {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  display: inline-flex;
+  margin-right: 10px;
 }
-.dark_blue_border{
-  width: 15px;
-  height: 2px;
-  background-color:  #206b8a;
-}
+
+
 
 .FAQ_container{
-  padding: 150px;
+  margin: 40px 20px;
+  
 }
+
+
+.FAQ_text_h3{
+  
+  font-family: "Heebo", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 3px;
+  color: #1face1;
+}
+
+.FAQ_container_titles{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center
+}
+
+.FAQ_text_h4{
+
+  font-family: "Rajdhani", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 45px;
+  line-height: 55px;
+  letter-spacing: 1px;
+  color: #222d35;
+}
+
+.FAQ_text{
+font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+color: #646c71;
+text-align: center;
+}
+
