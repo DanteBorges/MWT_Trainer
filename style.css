@@ -20,28 +20,26 @@ h6 {
   padding: 0;
 }
 
+
 .header {
   width: 100%;
   height: 120px;
   background-color: #222d35;
   position: fixed;
-  top: 0;
   z-index: 100;
+  top: 0;
 }
 .container {
   display: flex;
-  padding: 40px 400px;
+  align-items: center;
   justify-content: space-between;
+  padding: 10px 250px;
 }
-/* colocar background na barra  */
-/* .marcadagua{
-    width: 100%:
-    height: 50%;
-} */
 
 .list {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 2em;
   list-style: none;
 }
@@ -56,11 +54,35 @@ h6 {
   letter-spacing: 1px;
 }
 
-.booknow {
+.list a:hover {
+  color: #1face1;
+  transition: 0.5s;
+}
+
+.list_bottom {
   border-width: medium;
   border-style: solid;
-  padding: 18px 30px;
   border-color: #1face1;
+  padding: 2px 30px;
+}
+
+.list_bottom a {
+  text-decoration: none;
+  color: #1face1;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.list_bottom:hover {
+  background-color: #1face1;
+  transition: 0.5s;
+  color: white;
+}
+.list_bottom a:hover {
+  color: white;
 }
 
 .background_container {
@@ -143,6 +165,7 @@ h6 {
   margin-left: auto;
   margin-top: -100px;
   background-color: #1face1;
+  padding-bottom: 20px;
 }
 .address_gym_1 {
   margin: 0 200px 0 200px;
@@ -216,6 +239,11 @@ h6 {
   align-items: center;
   margin-top: 30px;
   margin-left: -85px;
+}
+.gray_border_line{
+  height: 1px;
+  width: 380px;
+  background-color:#646c71;
 }
 
 .text_container {
@@ -642,7 +670,6 @@ h6 {
   box-shadow: 0 2px 6px rgba(50, 50, 90, 0.1);
 }
 
-
 .faq-title {
   cursor: pointer;
   padding: 20px 20px;
@@ -668,7 +695,7 @@ h6 {
   font-family: "Ubuntu";
   font-weight: 300;
   display: none;
-  line-height: 2.0em;
+  line-height: 2em;
   color: #646c71;
 }
 
@@ -678,4 +705,78 @@ h6 {
 
 .trigger-input:checked + .trigger-wrapper_faq .faq-text {
   display: block;
+}
+
+.footers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222d35;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: url(public/img/slider-cross-bg.png);
+}
+
+.fist_foolter_img {
+  width: 200px;
+  height: 50px;
+  padding: 50px;
+}
+.fist_foolter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.gray_border {
+  background-color: #646c71;
+  width: 1000px;
+  height: 2px;
+}
+
+.second_foolter {
+  margin: 30px;
+  display: flex;
+  width: 1000px;
+
+  align-items: center;
+}
+.second_foolter_copyright {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  line-height: 30px;
+  margin-right: 100px;
+}
+.second_foolter_copyright a {
+  padding-left: 4px;
+  color: white;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+}
+.second_foolter_copyright a:hover {
+  color: #1face1;
+  transition: 0.5s;
+}
+
+.second_foolter_email {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+  text-decoration: none;
+  margin-right: 180px;
+}
+.second_foolter_email:hover {
+  color: #1face1;
+  transition: 0.5s;
+}
+
+.second_foolter_telephone {
+  color: white;
+  font-size: 16px;
+  line-height: 30px;
 }
