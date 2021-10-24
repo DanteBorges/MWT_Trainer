@@ -20,7 +20,6 @@ h6 {
   padding: 0;
 }
 
-
 .header {
   width: 100%;
   height: 120px;
@@ -171,28 +170,36 @@ h6 {
   margin-top: -100px;
   background-color: #1face1;
 }
-.address_gym_1 {
-  margin: 0 200px 0 200px;
-  width: 180px;
-  height: 50px;
+@media (max-width: 1440px) {
+  .container_more {
+    width: 1000px;
+  }
 }
-.address_gym_1 a {
+
+
+.address_gym_1 {
+  margin: 0 120px ;
   font-family: "Rajdhani";
   font-size: 20px;
   color: white;
   font-weight: 500;
 }
 
-.address_gym_2 {
-  width: 300px;
-  height: 50px;
+@media (max-width: 1440px) {
+
+  .address_gym_1{
+    margin: 0 80px ;
+    
+   }
 }
-.address_gym_2 a {
+
+.address_gym_2 {
   font-family: "Rajdhani";
   font-size: 20px;
   color: white;
   font-weight: 500;
 }
+
 
 .header_2 {
   display: flex;
@@ -201,8 +208,10 @@ h6 {
   width: 100%;
   height: 600px;
   background-color: #222d35;
-  padding-top: 30px;
+  
 }
+
+
 
 .personal_container {
   width: 400px;
@@ -245,10 +254,10 @@ h6 {
   margin-top: 30px;
   margin-left: -85px;
 }
-.gray_border_line{
+.gray_border_line {
   height: 1px;
   width: 380px;
-  background-color:#646c71;
+  background-color: #646c71;
 }
 
 .text_container {
@@ -286,17 +295,20 @@ h6 {
 }
 .why_choose {
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 1000px;
-  background-color: white;
 }
 
 .why_choose_container {
-  margin: 100px 0 300px 400px;
   width: 500px;
-  height: 700px;
+  margin: 100px 100px 50px 400px;
 }
+@media (max-width: 1440px) {
+
+  .why_choose_container{
+    margin: 100px ;
+
+   }
+}
+
 
 .why_choose_container_title_h2 {
   font-family: "Heebo", Arial, Helvetica, sans-serif;
@@ -339,9 +351,7 @@ h6 {
   line-height: 1.8;
   color: #646c71;
 }
-.why_choose_container_list {
-  height: 300px;
-}
+
 
 .container_list_items {
   width: 100%;
@@ -358,6 +368,8 @@ h6 {
   font-size: 14px;
   line-height: 1.4;
   color: #646c71;
+  padding-bottom: 70px;
+
 }
 
 .container_touch {
@@ -384,8 +396,7 @@ h6 {
 }
 
 .why_choose_container_image {
-  margin: 100px 0 300px 0;
-  width: 500px;
+  margin: 100px 0 200px 0;
   height: 600px;
 }
 
@@ -789,7 +800,7 @@ h6 {
   line-height: 30px;
 }
 
-#link-top{
+#link-top {
   text-decoration: none;
   font-size: 20px;
   color: white;
