@@ -307,6 +307,7 @@ h6 {
 }
 .custom_underline {
   display: flex;
+  padding-bottom: 10px;
 }
 .light_blue_border {
   background-color: #1face1;
@@ -362,7 +363,7 @@ h6 {
   text-decoration: none;
   background-color: #222d35;
   width: 70%;
-  height: 50px;
+  margin-top: 50px;
 }
 .container_touch:hover {
   background-color: #1face1;
@@ -394,6 +395,7 @@ h6 {
 .personal_training_img_girl {
   position: relative;
   top: -100px;
+  right: 100px;
   width: 600px;
   height: 800px;
   background-image: url(public/img/Image12.jpg);
@@ -435,16 +437,13 @@ h6 {
   width: 900px;
   height: 500px;
 }
-.post-slider {
-  position: relative;
-}
 
-.post-slider .post-wrapper {
+.post-wrapper {
   margin: 0px auto;
   overflow: hidden;
 }
 
-.post-slider .post-wrapper .post {
+.post-wrapper .post {
   margin: 0px 10px;
   display: inline-block;
   border: #646c71 solid 1px;
@@ -455,20 +454,20 @@ h6 {
   height: 200px;
 }
 
-.botton-left{
+.botton-left {
   height: 50px;
   width: 50px;
   border: #646c71 solid 1px;
-  background-color:#222d35;
-  
+  background-color: #222d35;
+  cursor: pointer;
 }
 
-.botton-right{
+.botton-right {
   height: 50px;
   width: 50px;
   border: #646c71 solid 1px;
-  background-color:#222d35;
-  
+  background-color: #222d35;
+  cursor: pointer;
 }
 .personal_training_box_icon {
   position: relative;
@@ -564,25 +563,22 @@ h6 {
   color: white;
   margin-bottom: 15px;
 }
+
 .testimonials_carousel_container {
-  display: flex;
-  flex-direction: column;
+  width: 950px;
+  height: 300px;
+  border: #1face1 1px solid;
 }
 
 .testimonials_carousel_container_items {
-  width: 900px;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  display: flex;
-  margin-top: 60px;
-  scroll-snap-type: x mandatory;
+  overflow: hidden;
 }
 
 .testimonials_carousel_container_items .item {
-  flex: 0 0 900px;
-  width: 600px;
-  scroll-snap-align: start;
+  margin: 0px 10px;
+  display: inline-block;
 }
+
 .testimonials_carousel_img {
   width: 75px;
   height: 75px;
@@ -823,7 +819,3 @@ h6 {
   bottom: 20px;
   box-shadow: 3px 10px 10px #333;
 }
-
-/*Carosel  */
-
-
