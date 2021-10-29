@@ -71,7 +71,7 @@ h6 {
 
 .list_bottom a {
   text-decoration: none;
-  color: #1face1;
+  color:white;
   font-family: "Rajdhani", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -462,6 +462,7 @@ h6 {
   cursor: pointer;
 }
 
+
 .botton-right {
   height: 50px;
   width: 50px;
@@ -469,6 +470,8 @@ h6 {
   background-color: #222d35;
   cursor: pointer;
 }
+
+
 .personal_training_box_icon {
   position: relative;
   top: -25px;
@@ -567,7 +570,6 @@ h6 {
 .testimonials_carousel_container {
   width: 950px;
   height: 300px;
-  border: #1face1 1px solid;
 }
 
 .testimonials_carousel_container_items {
@@ -591,13 +593,13 @@ h6 {
 }
 
 .slick-dots button {
-  display: block;
   width: 12px;
   height: 12px;
   padding: 0;
   border: 1px white solid;
   background-color: #222d35;
   text-indent: -9999px;
+  cursor: pointer;
 }
 
 .slick-dots li.slick-active button {
@@ -647,6 +649,7 @@ h6 {
   text-transform: uppercase;
   color: #b7b8b9;
 }
+
 .giant_quotes {
   color: #1face1;
   font-size: 64px;
@@ -843,5 +846,6 @@ h6 {
   position: fixed;
   right: 20px;
   bottom: 20px;
+  cursor: pointer;
   box-shadow: 3px 10px 10px #333;
 }
