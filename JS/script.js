@@ -38,8 +38,12 @@ $(document).ready(function () {
     ],
   });
   
+  $(".testimonials_carousel_container_items").slick({
+    dots:true,
+    infinite: true,
+    nextArrow: false,
+    prevArrow:false,
+  });
+  
 });
-$(".testimonials_carousel_container_items").slick({
-  dots:true,
-  infinite: true
-});
+
